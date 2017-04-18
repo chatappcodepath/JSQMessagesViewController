@@ -304,6 +304,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)didReceiveMenuWillHideNotification:(NSNotification *)notification;
 
+- (void)jsq_setToolbarBottomLayoutGuideConstant:(CGFloat)constant;
+
 @end
 
 NS_ASSUME_NONNULL_END
